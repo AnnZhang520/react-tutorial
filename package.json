@@ -31,4 +31,7 @@
     ]
   },
   "homepage": "https://github.com/AnnZhang520/react-tutorial",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
