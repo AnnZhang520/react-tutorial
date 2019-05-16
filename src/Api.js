@@ -1,4 +1,5 @@
 import React, { Component } from '../node_modules/react'
+import './index.css'
 
 class App extends Component {
     state = {
@@ -23,8 +24,13 @@ class App extends Component {
 
     render() {
         const { data } = this.state
+        const url_tutorial =
+            'https://www.taniarascia.com/getting-started-with-react/'
         return (
             <fieldset>
+                <p>This is a demo follow by </p>
+                <a href={url_tutorial} >{url_tutorial}</a>
+                <hr/>
                 <p>{data}</p>
             </fieldset>
         )
