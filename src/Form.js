@@ -32,12 +32,14 @@ class Form extends Component {
                 <input
                     type="text"
                     name="name"
+                    placeholder="Enter name, cannot be empty..." 
                     value={name}
                     onChange={this.handleChange} />
                 <label>Job</label>
                 <input
                     type="text"
                     name="job"
+                    placeholder="Enter job, cannot be empty..." 
                     value={job}
                     onChange={this.handleChange} />
                 <input type="button" value="Submit" onClick={this.submitForm} />
