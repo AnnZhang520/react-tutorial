@@ -34,6 +34,9 @@ class App extends Component {
         })
     }
     handleSubmit = character => {
+        if (!character.name || !character.job){
+            return;
+        }
         this.setState({ characters: [...this.state.characters, character] })
     }
     render() {
